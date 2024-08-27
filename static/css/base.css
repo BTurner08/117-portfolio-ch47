@@ -1,0 +1,106 @@
+/* Variables */
+
+:root {
+    --primary-color: #AF9FFF;
+    --primary-color-100: #D5CCFF;
+    --primary-color-300: #7F66FF;
+
+    --secondary-color: #025834;
+    --secondary-color-600: #04C876;
+    --secondary-color-900: #01321E;
+
+    --neutral-color: #E0E0E0;
+
+    --background-color: #1b1b1b;
+    --sruface-color: #252525;
+
+    --lobster-font: "Lobster Two", sans-serif;
+    --DM-font: "DM Sans", sans-serif;
+
+}
+
+* {
+    font-family: var( --DM-font);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+    background-color: #F0EDEE;
+    
+    }
+
+h1 {
+    color: #0A090C;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: var( --lobster-font);
+    color: #90DDF0;
+    font-size: 1.8rem;
+    letter-spacing: 0.06rem;
+}
+
+p, label {
+    color: #0A090C;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.text-label {
+    color: #D5CCFF;
+    background-color: #07393C;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.center-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer {
+        background-color: #07393C;
+        height: 43px;
+        position: sticky;
+        top: 0px;
+}
+
+.small-text {
+    font-size: 0.6rem;
+    color: gray; /* Optional: to make it less prominent */
+}
+
+.nav-options{
+    flex-wrap: wrap;
+}
+.nav-menu{
+    display: flex;
+}
+
+.primary-button{
+    font-weight: bold;
+    border-radius: 1rem;
+    border: none;
+    padding: 2.5% 5%;
+    color: #07393C;
+}
+
+.primary-button:hover {
+    cursor: pointer;
+    background: linear-gradient(135deg, #7f66ff 0%, #aa99ff 100%);
+}
